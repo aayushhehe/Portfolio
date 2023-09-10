@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;400;600;700;800&display=swap");
+
+body {
+  background-color: #1c1c1e;
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend Deca", sans-serif;
+  display: flex;
+}
+
+.borderv {
+  background-color: rgb(231, 225, 225);
+  padding: 0.6rem;
+  height: 100vh;
+  position: fixed;
+}
+
+.bottom {
+  margin-top: 98vh;
+}
+
+.right {
+  margin-right: 20vw;
+}
+
+.text {
+  margin-left: 6rem;
+  margin-top: 8rem;
+  position: absolute;
+  color: white;
+  transition: 0.2s ease;
+  opacity: 0;
+}
+
+.logo:hover .text {
+  margin-top: 10rem;
+  opacity: 1;
+}
+
+.type-text {
+  position: absolute;
+}
+
+.type-text::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -5px;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: #ff014f;
+  animation: type 0.5s infinite;
+  -webkit-animation: type 0.5s infinite;
+}
+
+@-webkit-keyframes type {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes type {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+#cursor {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+
+  transition-timing-function: ease-out;
+  transition-duration: 300ms;
+
+  pointer-events: none;
+}

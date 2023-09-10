@@ -25,12 +25,9 @@ body {
 }
 
 .text {
-  margin-left: 6rem;
-  margin-top: 0.5rem;
   /* position: absolute; */
-  color: white;
+
   transition: 0.2s ease;
-  opacity: 0;
 }
 
 .logo:hover .text {

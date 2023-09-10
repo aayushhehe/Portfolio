@@ -14,30 +14,162 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div id="cursor"></div>
-    <div class="bg-[#e7e1e1] py-2 w-[100vw] fixed"></div>
-    <div class="bg-[#e7e1e1] py-2 w-[100vw] fixed mt-[98.5vh]"></div>
-    <div class="bg-[#e7e1e1] px-2 h-[100vh] fixed"></div>
-    <div class="bg-[#e7e1e1] px-2 h-[100vh] fixed ml-[99.2vw]"></div>
-    <div class="logo">
-      <img class="w-[4vw] ml-[5.5rem] absolute mt-[4rem]" src="IMG_0978.png" />
-      <p class="text">Aayush</p>
-    </div>
-    <div class="ml-[18rem] absolute mt-[4.6rem] text-[3rem]">
-      <p class="text-[#e7e1e1]">Hi There!</p>
-      <p class="text-[#e7e1e1]">I Am Aayush Batham</p>
-      <br />
+    <div id="cursor" class="z-"></div>
+    <div class="bg-[#e7e1e1] py-2 w-[100vw] fixed z-50"></div>
+    <div class="bg-[#e7e1e1] py-2 w-[100vw] fixed mt-[98.5vh] z-50"></div>
+    <div class="bg-[#e7e1e1] px-2 h-[100vh] fixed z-50"></div>
+    <div class="bg-[#e7e1e1] px-2 h-[100vh] fixed ml-[99.2vw] z-50"></div>
 
-      <div class="text-[#e7e1e1]">
-        I am a
-        <p class="type-text text-[#469c60]"></p>
+    <div
+      ><div class="logo">
+        <img class="w-[4vw] ml-[5.5rem] mt-[4rem]" src="IMG_0978.png" />
+        <p class="text">Aayush</p>
       </div>
+      <div class="ml-[18rem] mt-[4.6rem] text-[3rem]">
+        <p class="text-[#e7e1e1] whitespace-nowrap">Hi There!</p>
+        <p class="text-[#e7e1e1] whitespace-nowrap">I Am Aayush Batham</p>
+        <br />
+
+        <span class="text-[#e7e1e1]">
+          <p class="inline-block">I am a&nbsp</p>
+          <p class="type-text text-[#e6544e] inline-block"></p>
+        </span>
+      </div>
+      <div
+        ><p class="text-[3rem] text-[#cff1c5] ml-[17.5rem] mt-[5rem] flex-row"
+          >About Aayush</p
+        >
+
+        <br />
+        <p class="ml-[17.5rem] text-[2rem] text-[#e7e1e1] flex-wrap pr-[28rem]"
+          >a passionate and versatile web developer with a keen eye for UI/UX
+          design. I thrive on turning creative ideas into functional,
+          user-friendly, and visually appealing websites and applications. With
+          a strong foundation in both development and design, I bridge the gap
+          between aesthetics and functionality to deliver exceptional digital
+          experiences.</p
+        >
+        <br />
+        <br />
+        <div
+          ><p class="text-[3rem] text-[#87b6d4] ml-[17.5rem] relative"
+            >Projects</p
+          >
+          <div class="project-container"
+            ><div
+              class="project-card flex justify-around ml-[6.8rem] mt-[3rem] w-[110rem]"
+            >
+              <div class="card">
+                <header class="card-header justify-around e">
+                  <p>May 2023 - June 2023</p>
+                  <span
+                    class="title"
+                    onclick="window.open('https://aayushhehe.github.io/Sticky/', '_blank')"
+                    >Sticky - Notes Taking App</span
+                  >
+                </header>
+                <div class="card-author">
+                  <a class="author-avatar" href="#"> <span> </span></a>
+                  <svg class="half-circle" viewBox="0 0 106 57">
+                    <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+                  </svg>
+                  <div class="author-name">
+                    <div class="author-name-prefix">Aayush</div>
+                  </div>
+                </div>
+                <div class="tags">
+                  <a href="#">HTML</a>
+                  <a href="#">TailwindCSS</a>
+                  <a href="#">JavaScript</a>
+                </div>
+              </div>
+              <div class="card">
+                <header class="card-header">
+                  <p>July 2023 - August 2023</p>
+                  <span
+                    class="title"
+                    onclick="window.open('https://aayushhehe.github.io/Sticky/', '_blank')"
+                    >Personal Portfolio</span
+                  >
+                </header>
+                <div class="card-author">
+                  <a class="author-avatar" href="#"> <span> </span></a>
+                  <svg class="half-circle" viewBox="0 0 106 57">
+                    <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+                  </svg>
+                  <div class="author-name">
+                    <div class="author-name-prefix">Aayush</div>
+                  </div>
+                </div>
+                <div class="tags">
+                  <a href="#">HTML</a>
+                  <a href="#">TailwindCSS</a>
+                  <a href="#">JavaScript</a>
+                </div>
+              </div>
+              <div class="card">
+                <header class="card-header">
+                  <p>August 2023 - Present</p>
+                  <span class="title">TrulyHustle</span>
+                </header>
+                <div class="card-author">
+                  <a class="author-avatar" href="#"> <span> </span></a>
+                  <svg class="half-circle" viewBox="0 0 106 57">
+                    <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+                  </svg>
+                  <div class="author-name">
+                    <div class="author-name-prefix"></div>
+                  </div>
+                </div>
+                <div class="tags">
+                  <a href="#">html</a>
+                  <a href="#">css</a>
+                  <a href="#">web-dev</a>
+                </div>
+              </div>
+            </div></div
+          >
+        </div>
+      </div>
+      <br />
+      <div class="marquee">
+        <div>
+          <span>UI UX, FrontEnd, BackEnd, Animation</span>
+          <span
+            >HTML, CSS, TailwindCSS, BootStrap, JavaScript, React, Figma</span
+          >
+        </div>
+      </div>
+      <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+    <body>
+    <div class="footer">
+    <div class="row">
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+    <a href="#"><i class="fa fa-youtube"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
     </div>
-    <div class="ml-[110rem] mt-[3.7rem]">
-      <div><button class="btn">Home</button></div>
-      <div>Projects</div>
-      <div>About</div>
+
+    <div class="row">
+    <ul>
+    <!-- <li><a href="#">Contact us</a></li>
+    <li><a href="#">Our Services</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Terms & Conditions</a></li>
+    <li><a href="#">Career</a></li> -->
+    </ul>
     </div>
+
+    <div class="row">
+    Designed By Aayush
+    </div>
+    </div>
+    
     <script src="script.js"></script>
   </body>
 </html>
